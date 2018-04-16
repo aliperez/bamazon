@@ -6,4 +6,4 @@
 
 <h1>Demo</h1>
 
-<p>Click here for a quick video demo of Bamazon: <a href=""></p>
+<p>Click here for a quick video demo of Bamazon: <a href="https://drive.google.com/file/d/1n0Og6WGbxNuk_lahaKJWdpP1h_-jxdVU/view?usp=sharing">Demo Video</a></p>
