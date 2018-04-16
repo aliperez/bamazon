@@ -62,7 +62,7 @@ function howMany(itemIdentification) {
       ])
       .then(function (answer) {
         // check to make sure quantity requested by customer < quantity in stock
-        if (answer.quantity < res[itemIdentification - 1].stock_quantity) {
+        if (answer.quantity <= res[itemIdentification - 1].stock_quantity) {
           // math for new stock quantity (use -1 bc id = index + 1)
           var origQuant = res[itemIdentification - 1].stock_quantity;
           var newQuant = origQuant - answer.quantity;
